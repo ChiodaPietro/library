@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cb29adb-7c09-4668-88b2-c7966193528f" name="Changes" comment="all classes created">
+    <list default="true" id="2cb29adb-7c09-4668-88b2-c7966193528f" name="Changes" comment="coded the first classes, library and book_types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/book_types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/book_types.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/book_types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book_types.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/library/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,16 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "X:/Users/chioda.pietro/Desktop/library",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/Users/chioda.pietro/Desktop/library&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="library.main" />
@@ -57,7 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.library.main" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664781221719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="coded the first classes, library and book_types">
+      <created>1664784057754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664784057754</updated>
+    </task>
+    <task id="LOCAL-00005" summary="coded the first classes, library and book_types">
+      <created>1664784090664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664784090664</updated>
+    </task>
+    <task id="LOCAL-00006" summary="coded the first classes, library and book_types">
+      <created>1664784119888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664784119888</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all classes created" />
-    <option name="LAST_COMMIT_MESSAGE" value="all classes created" />
+    <MESSAGE value="coded the first classes, library and book_types" />
+    <option name="LAST_COMMIT_MESSAGE" value="coded the first classes, library and book_types" />
   </component>
 </project>
