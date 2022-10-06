@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cb29adb-7c09-4668-88b2-c7966193528f" name="Changes" comment="coded the first classes, library and book_types">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2cb29adb-7c09-4668-88b2-c7966193528f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/library/Book_types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book_types.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/library/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/main.java" afterDir="false" />
     </list>
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664780673159</updated>
       <workItem from="1665063375097" duration="1240000" />
-      <workItem from="1665065122818" duration="6687000" />
+      <workItem from="1665065122818" duration="7052000" />
     </task>
     <task id="LOCAL-00001" summary="all classes created">
       <created>1664781179258</created>
@@ -118,7 +116,13 @@
       <option name="project" value="LOCAL" />
       <updated>1664784119888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="completly new book_types and new main, new switches and renewed methods">
+      <created>1665078972902</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1665078972902</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all classes created" />
     <MESSAGE value="coded the first classes, library and book_types" />
-    <option name="LAST_COMMIT_MESSAGE" value="coded the first classes, library and book_types" />
+    <MESSAGE value="completly new book_types and new main, new switches and renewed methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="completly new book_types and new main, new switches and renewed methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

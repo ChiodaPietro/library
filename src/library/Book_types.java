@@ -42,8 +42,12 @@ public class Book_types {
     public Book[] getRomance() {
         return romance;
     }
-
-    public int getBook_position( Book book) {
+/*
+i can't find the book, because i can't use a string variable or an object
+what to do now???? we need to return the position and type of that book just
+from the title
+ */
+    public int getBook_position( String book) {
         switch (book.getBook_type()) {
             case "fantasy":
                 for (int i = 0; i < fantasy.length; i++) {
