@@ -1,21 +1,30 @@
 package library;
 
+
+import java.util.Scanner;
+
 public class main {
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         Library library = new Library("name", "address", 222222222);
         Book_types book_types = new Book_types(10,10,10,10,10,10);
-        Book[] newbook = new Book[10];// create a list of objects, book[]> what kind of class variables do you want?
         // we want titles, and stuff, so we choose the class book.
         //create a new boook
-
-        System.out.println(book_types.getFantasy());
-
-//        for (int i = 0; i < newbook.length; i++) {
-//            newbook[i] = (new Book("Lord of the Rings", 1200, "fantasy"));
-//            System.out.println(newbook[i].getTitle());
-//            if(newbook[i].getBook_type().equals("fantasy")){
-//                System.out.println(newbook[i].getTitle()+": "+newbook[i].getBook_type());
-//            }
-//        }
+        while(true) {
+            System.out.println("add a new book;\n" +
+                    "remove a book\n" +
+                    "search a book\n" +
+                    "exit the library");
+            String choice=sc.next();
+            switch (choice){
+                case"add":
+                    Book newbook;
+                    System.out.println("enter the title, the pages number and the book_genre");
+                    newbook= new Book(sc.next(), sc.nextInt(), sc.next());
+            }
+            Book newbook = new Book("weird stuff", 1200, "romance");// create a list of objects, book[]> what kind of class variables do you want?
+            System.out.println(book_types.add_book(newbook));
+            System.out.println(book_types.getBook_position(newbook));
+        }
     }
 }

@@ -14,4 +14,7 @@ public class Book {
     public String getBook_type(){
         return this.book_type;
     }
+    public int getPages_number(){
+        return this.pages_number;
+    }
 }
