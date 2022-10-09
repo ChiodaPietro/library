@@ -22,7 +22,10 @@ public class main {
                     System.out.println("enter the title, the pages number and the book_genre");
                     newbook= new Book(sc.next(), sc.nextInt(), sc.next());
                 case "search":
-                    book_types.getBook_position("");
+                    book_types.getBook_position(newbook.getBook_type());
+                    break;
+                case "output":
+                    book_types.book_list_output(book_types.switch_genders());
             }
             Book newbook = new Book("weird stuff", 1200, "romance");// create a list of objects, book[]> what kind of class variables do you want?
             System.out.println(book_types.add_book(newbook));

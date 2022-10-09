@@ -1,6 +1,9 @@
 package library;
 
+import java.util.Scanner;
+
 public class Book_types {
+    static Scanner sc = new Scanner(System.in);
     private Book[] fantasy;
 
     private Book[] thriller;
@@ -42,51 +45,52 @@ public class Book_types {
     public Book[] getRomance() {
         return romance;
     }
-/*
-i can't find the book, because i can't use a string variable or an object
-what to do now???? we need to return the position and type of that book just
-from the title
- */
-    public int getBook_position( String book) {
-        switch (book.getBook_type()) {
+
+    /*
+    i can't find the book, because i can't use a string variable or an object
+    what to do now???? we need to return the position and type of that book just
+    from the title
+     */
+    public int getBook_position(Book gender) {
+        switch (book.) {
             case "fantasy":
                 for (int i = 0; i < fantasy.length; i++) {
-                    if(fantasy[i]!=null){
+                    if (fantasy[i] != null) {
                         System.out.println("fantasy");
                         return i;
                     }
                 }
             case "thriller":
                 for (int i = 0; i < thriller.length; i++) {
-                    if(thriller[i]!=null){
+                    if (thriller[i] != null) {
                         System.out.println("thriller");
                         return i;
                     }
                 }
             case "romance":
                 for (int i = 0; i < romance.length; i++) {
-                    if(romance[i]!=null){
+                    if (romance[i] != null) {
                         System.out.println("romance");
                         return i;
                     }
                 }
             case "yellow":
                 for (int i = 0; i < yellow.length; i++) {
-                    if(yellow[i]!=null){
+                    if (yellow[i] != null) {
                         System.out.println("yellow");
                         return i;
                     }
                 }
             case "science":
                 for (int i = 0; i < science.length; i++) {
-                    if(science[i]!=null){
+                    if (science[i] != null) {
                         System.out.println("science");
                         return i;
                     }
                 }
             case "science fiction":
                 for (int i = 0; i < science_fiction.length; i++) {
-                    if(science_fiction[i]!=null){
+                    if (science_fiction[i] != null) {
                         System.out.println("science ficiotn");
                         return i;
                     }
@@ -134,34 +138,34 @@ from the title
                         }
                         break;
                     case "romance":
-                        if(romance[i]==null){
-                            romance[i]=book;
-                            i= romance.length;
+                        if (romance[i] == null) {
+                            romance[i] = book;
+                            i = romance.length;
                             return true;
-                        }else {
-                            if(i==9){
+                        } else {
+                            if (i == 9) {
                                 System.out.println("there is no space left on the fantasy bookshelf");
                             }
                         }
                         break;
                     case "science":
-                        if(science[i]==null){
-                            science[i]=book;
-                            i= science.length;
+                        if (science[i] == null) {
+                            science[i] = book;
+                            i = science.length;
                             return true;
-                        }else {
-                            if(i==9){
+                        } else {
+                            if (i == 9) {
                                 System.out.println("there is no space left on the fantasy bookshelf");
                             }
                         }
                         break;
                     case "science fiction":
-                        if(science_fiction[i]==null){
-                            science_fiction [i]=book;
-                            i= science_fiction.length;
+                        if (science_fiction[i] == null) {
+                            science_fiction[i] = book;
+                            i = science_fiction.length;
                             return true;
-                        }else {
-                            if(i==9){
+                        } else {
+                            if (i == 9) {
                                 System.out.println("there is no space left on the fantasy bookshelf");
                             }
                         }
@@ -169,6 +173,41 @@ from the title
                 }
             }
         }
-            return false;
+        return false;
+    }
+
+    public void book_list_output(Book[] book_type) {
+        for (int i = 0; i < fantasy.length; i++) {
+            System.out.println(book_type[i]);
         }
     }
+
+    public Book[] switch_genders() {
+        System.out.println("choose the book gender");
+        switch (sc.next().toLowerCase()) {
+            case "fantasy":
+                return getFantasy();
+
+            case "thriller":
+                return getThriller();
+
+            case "yellow":
+                return getYellow();
+
+            case "romance":
+                return getRomance();
+
+            case "science":
+                return getScience();
+
+            case "science fiction":
+                return getScience_fiction();
+            default:
+                System.out.println("invalid input");
+
+        }
+
+        return null;
+    }
+}
+
