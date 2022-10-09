@@ -17,4 +17,8 @@ public class Book {
     public int getPages_number(){
         return this.pages_number;
     }
+    public void  setTitle(String title){this.title=title;}
+    public void setBook_type(String book_type){this.book_type=book_type;}
+    public void setPages_number(int pages_number){this.pages_number=pages_number;
+    }
 }
